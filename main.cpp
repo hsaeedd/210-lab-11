@@ -4,8 +4,17 @@
 #include <iostream>
 using namespace std;
 
-struct 
-int main()
-{
+struct Pet {
+    string name;
+    int age;
+    string type;
 
+    ~Pet() {
+
+    }
+
+};
+int main(){
+
+    return 0;
 }
