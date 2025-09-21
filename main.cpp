@@ -45,6 +45,7 @@ void inputPet(Pet * sptr){
     getline(cin, sptr->name);
     cout << "Age: ";
     cin >> sptr->age;
+    cin.ignore();
     cout << "Type: ";
     getline(cin, sptr->type);
     sptr -> appointmentsyears = new int[NR_APPTS];
@@ -64,7 +65,6 @@ void displayPet(Pet * sptr){
     cout << "Type: " << sptr->type << endl;
     for(int i = 0; i < NR_APPTS; i++){
         cout << "Appointment #" << i+1 << " Year: " << sptr->appointmentsyears[i] << endl;
-
-
+        cout << endl << endl;
     }
 }
