@@ -40,7 +40,7 @@ int main(){
 
 void inputPet(Pet * sptr){
     static int nrPet = 1;
-    cout << "Input data for Pet #" << nrPet << ":" << endl;
+    cout << "Input data for Pet #" << nrPet << ":\n";
     cout << "Name: ";
     getline(cin, sptr->name);
     cout << "Age: ";
