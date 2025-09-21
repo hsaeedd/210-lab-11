@@ -4,17 +4,17 @@
 #include <iostream>
 using namespace std;
 
-const int NR_PETS = 3;
+const int NR_PETS = 3, NR_APPTS = 4;
 struct Pet {
     string name;
     int age;
     string type;
-    int * appointments;
+    int * appointmentsyears;
 
     ~Pet() { 
-        if (appointments)
-            delete [] appointments;
-        appointments = nullptr;
+        if (appointmentsyears)
+            delete [] appointmentsyears;
+        appointmentsyears = nullptr;
     }
 
 };
@@ -47,6 +47,7 @@ void inputPet(Pet * sptr){
     cin >> sptr->age;
     cout << "Type: ";
     getline(cin, sptr->type);
+    sptr -> 
 
 
 } 
