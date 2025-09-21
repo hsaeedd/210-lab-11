@@ -63,8 +63,8 @@ void displayPet(Pet * sptr){
     cout << "Age: " << sptr->age << endl;
     cout << "Type: " << sptr->type << endl;
     for(int i = 0; i < NR_APPTS; i++){
-        cout << "Appointment #" << i+1 << " Year: " << sptr appointmentsyears[i] << endl;
-        
+        cout << "Appointment #" << i+1 << " Year: " << sptr->appointmentsyears[i] << endl;
+
 
     }
 }
