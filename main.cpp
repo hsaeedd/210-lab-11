@@ -8,8 +8,8 @@ const int NR_PETS = 3, NR_APPTS = 4;
 struct Pet {
     string name;
     int age;
-    string type;
-    int * appointmentsyears;
+    string type;//cat, dog, etc.
+    int * appointmentsyears;//the years pets have had appointments
 
     ~Pet() { 
         if (appointmentsyears)
