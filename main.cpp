@@ -9,7 +9,7 @@ struct Pet {
     int age;
     string type;
 
-    ~Pet() {
+    ~Pet() { 
 
     }
 
