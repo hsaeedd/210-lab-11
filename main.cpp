@@ -47,6 +47,6 @@ void inputPet(Pet * sptr){
     cin >> sptr->age;
     cout << "Type: ";
     getline(cin, sptr->type);
-    
 
-}
+
+} 
